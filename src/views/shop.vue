@@ -4,10 +4,10 @@
 
     <!-- Hero Section -->
     <section class="text-center py-20 px-4 relative overflow-hidden">
-      <h1 class="text-6xl md:text-7xl font-bold text-teal-600 mb-6">Exa Payroll</h1>
+      <h1 class="text-6xl md:text-7xl font-bold text-teal-600 mb-6">Exa Shop</h1>
       <p class="max-w-4xl mx-auto text-teal-600 leading-relaxed text-lg">
-        Exa Payroll System (Exa Payroll) is a software solution that automates the process of managing employee salaries, wages, bonuses, deductions,
-         and compliance with tax laws. It ensures timely and accurate payroll processing while reducing manual errors and administrative overhead.
+        Exa E-commerce System (Exa Shop) is an online platform or solution that allows businesses to buy and sell goods or services via the internet. E-commerce systems involve the integration of various components, such as product management, order processing,
+        payment gateways, inventory management, and customer support. They are crucial for businesses in various industries to reach global audiences and streamline operations.
       </p>
     </section>
 
@@ -16,36 +16,32 @@
       <h2 class="text-4xl font-bold text-teal-600 text-t mb-12">Core Modules</h2>
 
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-        <!-- Employee Information Management -->
+        <!-- Ticket Management -->
         <div class="p-6 bg-teal-50 rounded-xl shadow-sm hover:shadow-lg transition">
           <div class="text-green-600 text-3xl mb-4">🎫</div>
-          <h3 class="text-xl font-semibold mb-2">Employee Information Management</h3>
+          <h3 class="text-xl font-semibold mb-2">Ticket Management</h3>
           <p class="text-teal-600 text-sm">
-            Maintain employee records (e.g., personal details, job roles, salary structure).
-            Manage multiple employment types (full-time, part-time, contractors).
-            Track attendance, leaves, and working hours.
+            Users can report issues or make requests. Each issue is generated as a ticket with a unique ID. Tickets can be
+            categorized by priority, type of issue, or department.
           </p>
         </div>
 
-        <!-- Salary Calculation -->
+        <!-- Notification System -->
         <div class="p-6 bg-teal-50 rounded-xl shadow-sm hover:shadow-lg transition">
           <div class="text-teal-600 text-3xl mb-4">🔔</div>
-          <h3 class="text-xl font-semibold mb-2">Salary Calculation</h3>
+          <h3 class="text-xl font-semibold mb-2">Notification System</h3>
           <p class="text-teal-600 text-sm">
-            Automate calculations based on hourly rates, fixed salaries, or commissions.
-            Include allowances, overtime, bonuses, and other earnings.
-            Deduct taxes, insurance, loans, and other withholdings.
+            Automated notifications to users and support teams about ticket status (e.g., open, in progress, resolved, or
+            closed).
           </p>
         </div>
 
-        <!-- Payslip Generation -->
+        <!-- Dashboard -->
         <div class="p-6 bg-teal-50 rounded-xl shadow-sm hover:shadow-lg transition">
           <div class="text-red-600 text-3xl mb-4">📊</div>
-          <h3 class="text-xl font-semibold mb-2">Payslip Generation</h3>
+          <h3 class="text-xl font-semibold mb-2">Dashboard</h3>
           <p class="text-teal-600 text-sm">
-            Create detailed and customizable payslips.
-            Include breakdowns of earnings, deductions, and net pay.
-            Provide downloadable or emailed payslips to employees.
+            An overview of active tickets, resolution statistics, and workload distribution across the team.
           </p>
         </div>
 
@@ -54,9 +50,8 @@
           <div class="text-yellow-500 text-3xl mb-4">📈</div>
           <h3 class="text-xl font-semibold mb-2">Report & Analytics</h3>
           <p class="text-teal-600 text-sm">
-            Generate payroll summaries, tax reports, and cost analysis.
-            Visual dashboards for insights into payroll trends and expenses.
-            Export reports for financial audits or decision-making.
+            Performance metrics such as response time, resolution time, number of tickets resolved, or the most common
+            issues.
           </p>
         </div>
       </div>

@@ -9,6 +9,12 @@ import Appointment from '../views/appointment.vue'
 import Payroll from '../views/payroll.vue'
 import Leave from '../views/leave.vue'
 import Attendance from '../views/attendance.vue'
+import Claim from '../views/claim.vue'
+import Clinic from '../views/clinic.vue'
+import Store from '../views/store.vue'
+import Pos from '../views/pos.vue'
+import Shop from '../views/shop.vue'
+import Recruitment from '../views/recruitment.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -23,6 +29,12 @@ const router = createRouter({
     { path: '/payroll', name: 'payroll', component: Payroll },
     { path: '/leave', name: 'leave', component: Leave },
     { path: '/attendance', name: 'attendance', component: Attendance },
+    { path: '/claim', name: 'claim', component: Claim },
+    { path: '/clinic', name: 'clinic', component: Clinic },
+    { path: '/store', name: 'store', component: Store },
+    { path: '/pos', name: 'pos', component: Pos },
+    { path: '/shop', name: 'shop', component: Shop },
+    { path: '/recruitment', name: 'recruitment', component: Recruitment },
   ],
 })
 

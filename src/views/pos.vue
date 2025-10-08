@@ -4,11 +4,10 @@
 
     <!-- Hero Section -->
     <section class="text-center py-20 px-4 relative overflow-hidden">
-      <h1 class="text-6xl md:text-7xl font-bold text-gray-600 mb-6">Exa Appointment</h1>
+      <h1 class="text-6xl md:text-7xl font-bold text-gray-600 mb-6">Exa Pos</h1>
       <p class="max-w-4xl mx-auto text-gray-600 leading-relaxed text-lg">
-        Exa Appointment Management System (Exa Appointment) is designed to simplify scheduling, managing, and tracking appointments.
-        It is widely used in industries like healthcare, salons, education, government services, and business consulting.
-        The system optimizes booking workflows, reduces scheduling conflicts, and enhances customer satisfaction.
+        Exa Point of Sale System (Exa Pos) is a combination of hardware and software used by businesses to process sales transactions. It enables the business to manage sales, customer data, inventory, and financial records in a seamless, efficient manner. POS systems are essential for industries like retail, hospitality,
+        and e-commerce, offering real-time insights into transactions and stock levels.
       </p>
     </section>
 
@@ -20,42 +19,39 @@
         <!-- Ticket Management -->
         <div class="p-6 bg-gray-50 rounded-xl shadow-sm hover:shadow-lg transition">
           <div class="text-green-600 text-3xl mb-4">🎫</div>
-          <h3 class="text-xl font-semibold mb-2">User Registration and Authentication</h3>
+          <h3 class="text-xl font-semibold mb-2">Ticket Management</h3>
           <p class="text-gray-600 text-sm">
-            Secure login and registration for applicants and administrators.
-            Role-based access control for applicants, reviewers, and admins.
+            Users can report issues or make requests. Each issue is generated as a ticket with a unique ID. Tickets can be
+            categorized by priority, type of issue, or department.
           </p>
         </div>
 
         <!-- Notification System -->
         <div class="p-6 bg-gray-50 rounded-xl shadow-sm hover:shadow-lg transition">
           <div class="text-gray-600 text-3xl mb-4">🔔</div>
-          <h3 class="text-xl font-semibold mb-2">Appointment Scheduling</h3>
+          <h3 class="text-xl font-semibold mb-2">Notification System</h3>
           <p class="text-gray-600 text-sm">
-            Real-time availability display for time slots and resources.
-            Calendar-based interface for selecting dates and times.
-            Configurable time intervals (e.g., 15 min, 30 min slots).
+            Automated notifications to users and support teams about ticket status (e.g., open, in progress, resolved, or
+            closed).
           </p>
         </div>
 
         <!-- Dashboard -->
         <div class="p-6 bg-gray-50 rounded-xl shadow-sm hover:shadow-lg transition">
           <div class="text-red-600 text-3xl mb-4">📊</div>
-          <h3 class="text-xl font-semibold mb-2">Automated Notifications and Reminders</h3>
+          <h3 class="text-xl font-semibold mb-2">Dashboard</h3>
           <p class="text-gray-600 text-sm">
-            Email, SMS, or push notifications for booking confirmations, reschedules, and cancellations.
-            Reminder notifications before appointments.
-            Follow-up notifications for feedback or additional services.
+            An overview of active tickets, resolution statistics, and workload distribution across the team.
           </p>
         </div>
 
         <!-- Report & Analytics -->
         <div class="p-6 bg-gray-50 rounded-xl shadow-sm hover:shadow-lg transition">
           <div class="text-yellow-500 text-3xl mb-4">📈</div>
-          <h3 class="text-xl font-semibold mb-2">Calendar Integration</h3>
+          <h3 class="text-xl font-semibold mb-2">Report & Analytics</h3>
           <p class="text-gray-600 text-sm">
-            Sync with popular calendar apps (Google Calendar, Outlook, iCal).
-            Availability management to prevent double bookings.
+            Performance metrics such as response time, resolution time, number of tickets resolved, or the most common
+            issues.
           </p>
         </div>
       </div>

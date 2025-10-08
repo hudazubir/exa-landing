@@ -1,61 +1,60 @@
 <template>
-<div class="min-h-screen bg-gradient-to-r from-purple-200 via-purple-50 to-white">
+  <div class="min-h-screen bg-gradient-to-b from-white to-blue-50">
     <navbar />
 
     <section class="text-center py-20 px-4 relative overflow-hidden">
-      <h1 class="text-6xl md:text-7xl font-bold text-purple-600 mb-6">Exa TrainingMS</h1>
+      <h1 class="text-6xl md:text-7xl font-bold text-purple-600 mb-6">Exa Clinic</h1>
       <p class="max-w-4xl mx-auto text-gray-600 leading-relaxed text-lg">
-        Exa Training Management System (Exa TrainingMS) is a software application designed to help organizations plan, manage, track, and evaluate
-        training programs for employees, students, or other learners. It streamlines the administrative tasks associated with training delivery, improving efficiency and
-        ensuring better learning outcomes.
+        Exa Clinic Registration System (Exa Clinic) is a digital platform that automates the registration and appointment booking process for patients visiting a clinic. It enhances the overall patient experience
+        by streamlining the patient intake process, reducing waiting times, and improving clinic operations.
       </p>
     </section>
     <!--begin::core modules-->
-    <section class="text-center py-16 px-6 md:px-20">
+    <section class="text-center py-16 bg-white px-6 md:px-20">
       <h2 class="text-purple-500 font-bold text-4xl mb-12">Core Modules</h2>
 
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-        <!--begin::Course Management-->
+        <!--begin::Patient Registration-->
         <div class="p-6 bg-purple-50 rounded-xl shadow-sm hover:shadow-lg transition">
-          <div class="text-3xl mb-4"><i class="bi bi-people-fill text-4xl text-purple-800"></i></div>
-          <h3 class="text-xl font-semibold mb-2">Course Management</h3>
+          <div class="text-3xl mb-4"><i class="bi bi-people text-4xl text-purple-800"></i></div>
+          <h3 class="text-xl font-semibold mb-2">Patient Registration</h3>
           <p class="text-gray-600 text-sm">
             Create, organize, and update training courses. Manage course details such as objectivees, content, duration, and prerequisites.
             Assign instructor to courses.
           </p>
         </div>
-        <!--end::Course Management-->
+        <!--end::Patient Registration-->
 
-        <!--begin::Scheduling & Enrollment-->
+        <!--begin::Appointment Scheduling-->
         <div class="p-6 bg-purple-50 rounded-xl shadow-sm hover:shadow-lg transition">
           <div class="text-3xl mb-4"><i class="bi bi-collection-play-fill text-4xl text-purple-800"></i></div>
-            <h3 class="text-xl font-semibold mb-2">Scheduling & Enrollment</h3>
+            <h3 class="text-xl font-semibold mb-2">Appointment Scheduling</h3>
             <p class="text-gray-600 text-sm">
               Schedule training sessions (online or in-person). Allow employees or learnes to self-register for courses. Set capacity limits and manage waiting lists.
             </p>
         </div>
-        <!--end::Scheduling & Enrollment-->
+        <!--end::Appointment Scheduling-->
 
-        <!--begin::Learner Management-->
+        <!--begin::Queue Management-->
         <div class="p-6 bg-purple-50 rounded-xl shadow-sm hover:shadow-lg transition">
-          <div class="text-3xl mb-4"><i class="bi bi-chat-dots-fill text-4xl text-purple-800"></i></div>
-            <h3 class="text-xl font-semibold mb-2">Learner Management</h3>
+          <div class="text-3xl mb-4"><i class="bi bi-chat-dots text-4xl text-purple-800"></i></div>
+            <h3 class="text-xl font-semibold mb-2">Queue Management</h3>
             <p class="text-gray-600 text-sm">
               Maintain learner profiles with personal information, training history, and progress. Track certifications and renewal dates.
             </p>
         </div>
-        <!--end::Learner Management-->
+        <!--end::Queue Management-->
 
-        <!--begin::Assessment & Certification-->
+        <!--begin::Patient Profile Management-->
         <div class="p-6 bg-purple-50 rounded-xl shadow-sm hover:shadow-lg transition">
-          <div class="text-3xl mb-4"><i class="bi bi-bell-fill text-4xl text-purple-800"></i></div>
-            <h3 class="text-xl font-semibold mb-2">Assessment & Certification</h3>
+          <div class="text-3xl mb-4"><i class="bi bi-bell text-4xl text-purple-800"></i></div>
+            <h3 class="text-xl font-semibold mb-2">Patient Profile Management</h3>
             <p class="text-gray-600 text-sm">
               Create quizzes, tests, or assignments to evaluate learning outcomes. Issue certificates upon course completion.
               Track certifications and notify learners about expirations or renewals.
             </p>
         </div>
-        <!--end::Assessment & Certification-->
+        <!--end::Patient Profile Management-->
       </div>
 
       <!-- CTA Buttons -->
@@ -71,7 +70,7 @@
     </section>
 
     <!-- Screenshot Section -->
-    <section class="py-20 px-6 md:px-20 text-center">
+    <section class="py-20 bg-gradient-to-b from-blue-50 to-white px-6 md:px-20 text-center">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div class="bg-white rounded-xl shadow-lg overflow-hidden">
           <div class="bg-gray-100 py-2 px-4 text-left text-xs text-gray-400">Portal Pengurusan Sumber Manusia CIDB</div>
