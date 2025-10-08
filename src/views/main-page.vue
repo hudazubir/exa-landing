@@ -1,33 +1,6 @@
 <template>
   <div class="min-h-screen bg-gray-50">
-    <!-- Navbar -->
-    <nav class="bg-white px-8 py-4">
-      <div class="max-w-7xl mx-auto flex items-center justify-between">
-        <!-- Logo -->
-        <div class="flex items-center gap-2">
-          <div class="w-10 h-10 bg-red-600 rounded flex items-center justify-center">
-            <svg class="w-6 h-6 text-white" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M4 4h7l2 2h7v2h-7l-2-2H4V4z"/>
-              <path d="M4 8h16v12H4V8z"/>
-            </svg>
-          </div>
-          <span class="text-xl font-bold text-red-600">exa software</span>
-        </div>
-
-        <!-- Navigation Links -->
-        <div class="flex items-center gap-8">
-          <a href="#" class="text-gray-700 hover:text-gray-900">Home</a>
-          <a href="#" class="text-gray-700 hover:text-gray-900">Discover</a>
-          <a href="#" class="text-gray-700 hover:text-gray-900">Portfolio</a>
-          <a href="#" class="text-gray-700 hover:text-gray-900">Service</a>
-          <a href="#" class="text-gray-700 hover:text-gray-900">Client</a>
-          <button class="text-blue-500 hover:text-blue-600 flex items-center gap-1">
-            <span>→</span>
-            <span>Login</span>
-          </button>
-        </div>
-      </div>
-    </nav>
+    <navbar />
 
     <!-- Hero Section -->
     <section class="bg-slate-700 px-8 py-16">
@@ -43,8 +16,7 @@
             v-for="(product, index) in products"
             :key="index"
             class="bg-white rounded-lg p-6 hover:shadow-xl transition-shadow cursor-pointer"
-            @click="goTo(product.link)"
-          >
+            @click="goTo(product.link)" >
             <h3 class="text-2xl font-semibold text-gray-400 mb-3">
               {{ product.name }}
             </h3>
@@ -60,6 +32,8 @@
 </template>
 
 <script setup>
+import navbar from '@/components/navbar.vue'
+import logo from '@/assets/logo.png'
 import { useRouter } from 'vue-router'
 
 const router = useRouter()
