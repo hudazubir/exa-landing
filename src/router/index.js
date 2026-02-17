@@ -16,6 +16,9 @@ import Pos from '../views/pos.vue'
 import Shop from '../views/shop.vue'
 import Recruitment from '../views/recruitment.vue'
 
+//auth
+import Register from '@/views/auth/register.vue'
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -35,6 +38,9 @@ const router = createRouter({
     { path: '/pos', name: 'pos', component: Pos },
     { path: '/shop', name: 'shop', component: Shop },
     { path: '/recruitment', name: 'recruitment', component: Recruitment },
+
+    //auth
+    { path: '/register', name: 'register', component: Register},
   ],
 })
 
